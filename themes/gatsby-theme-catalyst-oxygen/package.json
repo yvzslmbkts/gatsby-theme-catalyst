@@ -5,9 +5,9 @@
   "author": "Eric Howey <eric@erichowey.dev>",
   "dependencies": {
     "gatsby-theme-catalyst-core": "^1.1.0",
-    "gatsby-theme-catalyst-blog": "^1.0.0",
-    "gatsby-theme-catalyst-header-side": "^1.0.0",
-    "gatsby-theme-catalyst-footer": "^1.0.0"
+    "gatsby-theme-catalyst-footer": "^1.0.0",
+    "gatsby-theme-catalyst-header-top": "^1.0.0",
+    "gatsby-theme-catalyst-sanity": "^1.1.0"
   },
   "peerDependencies": {
     "gatsby": "^2.20.25",
