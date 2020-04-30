@@ -15,10 +15,14 @@ module.exports = (themeOptions) => {
           // useStickyHeader: false,
           // useSocialLinks: true,
           // useColorMode: true,
-          //footerContentLocation: "left", // "left", "right", "center"
+          footerContentLocation: themeOptions.footerContentLocation || "right",
+          displaySiteLogo: themeOptions.displaySiteLogo || false,
+          displaySiteTitle: themeOptions.displaySiteTitle || true,
+          displaySiteLogoMobile: themeOptions.displaySiteLogoMobile || false,
+          displaySiteTitleMobile: themeOptions.displaySiteTitleMobile || true,
         },
       },
-      `gatsby-theme-catalyst-header-top`,
+      `gatsby-theme-catalyst-header-bigtop`,
       `gatsby-theme-catalyst-footer`,
       {
         resolve: `gatsby-theme-catalyst-sanity`,

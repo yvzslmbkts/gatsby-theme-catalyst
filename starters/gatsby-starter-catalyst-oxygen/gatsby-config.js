@@ -32,27 +32,7 @@ module.exports = {
   },
   plugins: [
     {
-      resolve: `gatsby-theme-catalyst-core`,
-      options: {
-        // Default options are:
-        // contentPath: `content/pages`,
-        // assetPath: `content/assets`,
-        // displaySiteLogo: true,
-        // displaySiteTitle: true,
-        // displaySiteLogoMobile: true,
-        // displaySiteTitleMobile: true,
-        // invertLogo: false,
-        // useStickyHeader: false,
-        // useSocialLinks: true,
-        // useColorMode: true, // Dark mode is not supported when configuring the theme from SANITY.io dashboard
-        // footerContentLocation: "left", // "left", "right", "center"
-        // remarkImagesWidth: 1440,
-      },
-    },
-    `gatsby-theme-catalyst-header-top`,
-    `gatsby-theme-catalyst-footer`,
-    {
-      resolve: `gatsby-theme-catalyst-sanity`,
+      resolve: `gatsby-theme-catalyst-oxygen`,
       options: {
         // Example for an env variable
         // sanityProjectId: process.env.SANITY_PROJECT_ID,
@@ -74,6 +54,7 @@ module.exports = {
         // sanityProjectPath: "/projects"
         // useSanityTheme: false // Experimental right now
         sanityProjectId: "5x2tb0v5",
+        sanityPostPath: "/",
       },
     },
 
