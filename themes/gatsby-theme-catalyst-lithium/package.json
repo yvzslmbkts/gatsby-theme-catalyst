@@ -1,0 +1,41 @@
+{
+  "name": "gatsby-theme-catalyst-lithium",
+  "description": "Sanity port of gatsby-theme-catalyst-helium.",
+  "version": "0.0.1",
+  "author": "Eric Howey <eric@erichowey.dev>",
+  "dependencies": {
+    "gatsby-theme-catalyst-helium": "^0.1.0",
+    "gatsby-theme-catalyst-sanity": "^1.2.1"
+  },
+  "peerDependencies": {
+    "gatsby": "^2.21.21",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "gatsby": "^2.21.21",
+    "prettier": "^2.0.5",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "clean": "gatsby clean",
+    "format": "prettier --write src/**/*.{js,jsx}",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ehowey/gatsby-theme-catalyst"
+  },
+  "bugs": {
+    "url": "https://github.com/ehowey/gatsby-theme-catalyst/issues"
+  }
+}
