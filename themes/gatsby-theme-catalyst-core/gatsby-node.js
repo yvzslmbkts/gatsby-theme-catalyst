@@ -22,6 +22,7 @@ exports.createSchemaCustomization = ({ actions }) => {
     useStickyHeader: Boolean!
     useSocialLinks: Boolean!
     useColorMode: Boolean!
+    useReactHeadroom: Boolean!
     footerContentLocation: String!
   }`)
 }
@@ -41,6 +42,7 @@ exports.sourceNodes = (
     useSocialLinks = true,
     useColorMode = true,
     footerContentLocation = "left",
+    useReactHeadroom = false,
   }
 ) => {
   // create garden data from plugin config
@@ -57,6 +59,7 @@ exports.sourceNodes = (
     useSocialLinks,
     useColorMode,
     footerContentLocation,
+    useReactHeadroom,
   }
   createNode({
     ...catalystConfigFieldData,
